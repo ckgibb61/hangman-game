@@ -1,0 +1,60 @@
+body {
+    /* background-color: #aaaaaa; */
+    background: url("../images/wood2.png");
+}
+
+h1 {
+    font-size: 26pt;
+    line-height: 32px;
+}
+
+.title {
+    color: whitesmoke;
+    background: blue;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.instructions {
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    /* background: red; */
+    margin-top: 30px;
+    line-height: 28px;
+    font-size: 16pt;
+}
+
+/* #scores {
+    width: 100%;
+} */
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.word {
+    color: whitesmoke;
+    text-align: left;
+    width: 100%;
+    /* background: green; */
+    margin-top: 30px;
+    line-height: 28px;
+    font-size: 16pt;
+    /* border: 2px black; */
+    width: 20%;
+    margin-left: 20px;
+}
+
+.other {
+    margin-left: 20px;
+    color: whitesmoke;
+    float: left;
+    width: 100%;
+    /* background: red; */
+    margin-top: 50px;
+    line-height: 28px;
+    font-size: 16pt;
+    width: 20%;
+}
