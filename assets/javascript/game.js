@@ -22,13 +22,20 @@ $(document).ready(function (){
         displayWord += "_ ";
 
         if (computerGuess.indexOf(userGuess) >= 0) {
-        $(".space").text(userGuess);
+        userGuess = true;
+        //  $(".space").text(userGuess);
+
             // $(".space").append(userGuess);
             console.log("we found it")
         } else {
+            userGuess = false;
             $(".let").text(usedCharacters);
             guesses--;
             console.log("nope")
+        }
+        if (userGuess === true) {
+            displayWord.replace(userGuess);
+            $(".space").text(userGuess);
         }
      }
     }
