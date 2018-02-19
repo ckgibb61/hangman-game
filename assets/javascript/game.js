@@ -22,11 +22,12 @@ $(document).ready(function (){
         displayWord += "_ ";
 
         if (computerGuess.indexOf(userGuess) >= 0) {
-            $(".space").text(userGuess);
+        $(".space").text(userGuess);
             // $(".space").append(userGuess);
             console.log("we found it")
         } else {
-            $(".other").append(guesses--);
+            $(".let").text(usedCharacters);
+            guesses--;
             console.log("nope")
         }
      }
