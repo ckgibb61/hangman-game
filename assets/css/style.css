@@ -1,0 +1,58 @@
+body {
+    /* background-color: #aaaaaa; */
+    background: url("../images/wood2.png");
+    letter-spacing: 2.5px;
+    color: white;
+}
+
+h1 {
+    font-size: 26pt;
+    line-height: 32px;
+    font-family: 'Sancreek', cursive;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.instructions {
+    text-align: center;
+    width: 100%;
+    /* background: red; */
+    margin-top: 30px;
+    line-height: 28px;
+    font-size: 16pt;
+}
+
+.score {
+    width: 100%;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.word {
+    text-align: left;
+    width: 100%;
+    /* background: green; */
+    margin-top: 30px;
+    line-height: 28px;
+    font-size: 16pt;
+    /* border: 2px black; */
+    width: 20%;
+    margin-left: 20px;
+}
+
+.other {
+    margin-left: 20px;
+    float: left;
+    width: 100%;
+    /* background: red; */
+    margin-top: 50px;
+    line-height: 28px;
+    font-size: 16pt;
+    width: 20%;
+}
