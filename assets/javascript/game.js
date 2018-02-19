@@ -22,10 +22,11 @@ $(document).ready(function (){
         displayWord += "_ ";
 
         if (computerGuess.indexOf(userGuess) >= 0) {
-            $(".space").append(userGuess);
+            $(".space").text(userGuess);
+            // $(".space").append(userGuess);
             console.log("we found it")
         } else {
-            // $(".other").append(guesses--);
+            $(".other").append(guesses--);
             console.log("nope")
         }
      }
@@ -49,5 +50,6 @@ $(document).ready(function (){
           "<p>wins: " + wins + "</p>" +
           "<p>losses: " + losses + "</p>" +
           "<p>letters guessed:" + usedCharacters.join(",");
+        
 
 });
